@@ -12,7 +12,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         await query.message.edit_text(
          
 
-            text = f"<b>○ Creator : <a href='tg://user?id={OWNER_ID}'>This Person</a>\n○ Language : <code>Python3</code>\n○ Channel : @Andymovies\n○ Support Group : @andymoviesofficialchats</b>",
+            text = f"<b>○ Creator : <a href='tg://user?id={OWNER_ID}'>@Aman_Sain</a>\n○ Language : <code>Python3</code>\n○ Channel : @Andymovies\n○ Support Group : @andymoviesofficialchats</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
